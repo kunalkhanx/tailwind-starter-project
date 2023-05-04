@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-starter-project",
+  "version": "1.0.0",
+  "description": "Static Tailwindcss project with live server.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile": "npx tailwindcss -i ./public/assets/tailwind.css -o ./public/assets/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Kunal Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.3.2"
+  }
+}
